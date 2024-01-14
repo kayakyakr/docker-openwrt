@@ -4,8 +4,7 @@
 
 Inspired by other projects that run `hostapd` in a Docker container. This goes one step further and boots a full network OS intended for embedded devices called [OpenWrt](https://openwrt.org/), so you can manage all aspects of your network from a user-friendly web UI.
 
-For Raspberry Pi-specific instructions, see [Building on Raspberry Pi](docs/rpi.md).
-
+This fork rewrites everything to pull down the official docker rootfs build from docker hub. 
 
 ## Dependencies
 
